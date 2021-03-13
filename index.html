@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script</title>
+</head>
+<body>
+   <div id="test"></div> 
+
+   <img id="imgtest" src="imgs/test.png" alt="">
+
+   <button onclick="document.getElementById('imgtest').src='imgs/test.png'">light</button>
+   
+<button onclick="document.getElementById('imgtest').src='imgs/on.png'">off light</button>
+
+<h1 id="title">thisis my world hahaha</h1>
+<button onclick="document.getElementById('title').style.color='red'">change color to red</button>
+<h2 id="changetext">change my text</h2>
+
+
+
+
+    <table border="1px" style="width: 1px;">
+       <tr>
+           <td><p id="changpar">this is my world </p> </td>
+           <td><button onclick="change()">change para haha !! </button> </td>
+       </tr>
+    </table>
+
+    <hr>
+
+
+   
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">window</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td><button onclick="window.print()">Print this page</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td><button  onclick="document.write(5 + 6)">document write</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+   <script src="js/custom.js"></script>
+</body>
+</html>
